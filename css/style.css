@@ -1,0 +1,164 @@
+body{
+background-color:#fcd6f8;
+font-family:sans, sans-serif;
+margin-top:0;
+padding-top:0;
+}
+#header{
+  position:fixed;
+  min-width:100%;
+  min-height:100px;
+  display:inline-flex;
+  justify-content:flex-end;
+  background-color:#fcd6f8;
+  flex-wrap: wrap;
+}
+#header ul{
+  list-style:none;
+  display:inline-flex;
+  white-space: nowrap;
+  
+}
+#header-img{
+  width:80px;
+  height:80px
+}
+
+.nav-link{
+  color:black;
+  text-decoration:none;
+  font-size:1.3em;
+  padding: 0px 40px;
+  
+  
+}
+#logo{
+    display:inline-flex;
+    margin-right:auto;
+  padding-left:70px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+}
+label{
+  font-size:1.5em;
+  font-weight:bold;
+  margin:30px;
+}
+#email{
+  width:20em;
+  height:1.5em;
+  text-align:center; 
+}
+#submit{
+  margin:15px;
+  height:2.5em;
+  border: 1px solid grey;
+  background-color:#7ff3f9;
+  font-weight:bold;
+  font-family:sans, sans-serif;
+}
+#features{
+  margin:0 auto;
+  text-align:center;
+  width:80%;
+}
+#features h2{
+  font-size:1.5em;
+  white-space: nowrap;
+}
+#features p{
+  padding-left:100px;
+}
+#features i{
+  padding-right:80px;
+  color:grey;
+}
+#How-it-works{
+  padding-top:50px;
+  text-align:center;
+  border-top:100px solid #fcd6f8;
+}
+#Pricing{
+  display:flex;
+  justify-content:center;
+  border-top:110px solid #fcd6f8;
+}
+.pricing{
+  text-align:center;
+  margin:10px;
+  border:1px solid black;
+  width:230px;
+  height:300px;
+}
+.product-head{
+  display:flex;
+  justify-content:center;
+  height:50px;
+  background-color:rgb(215, 20, 157);
+}
+#footer{  
+  background-color:#c6c9ce;
+  margin:0 auto;
+  height:4em;
+}
+#footer ul{
+  display:flex;
+  justify-content:flex-end;
+  list-style:none;
+}
+#footer ul li a{
+  text-decoration:none;
+  color:black;
+  padding:10px;
+}
+#footer p{
+  text-align:right;
+  color:#fff;
+}
+@media only screen and (max-width: 560px) {
+  #header{
+   justify-content:start;
+  }
+  #logo{
+    padding-left:0px;
+  }
+  #header h1{
+    font-size:1.4em;
+  }
+  .nav-link{
+  color:black;
+  text-decoration:none;
+  font-size:1.1em;
+  padding:20px;
+   padding-left:0px;
+  }
+  #features{
+  margin:0;
+  width:80%;
+}
+  #features h2{
+  font-size:1.1em;
+}
+  #features i{
+  padding-right:40px;
+}
+  iframe{
+   width:300px;
+   height:200px;
+  }
+  #Pricing{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+#footer p{
+  text-align:center;
+  font-size:12px;
+}
+}
